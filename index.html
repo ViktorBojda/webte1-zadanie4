@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Galéria fotografií</title>
+    <script src="https://kit.fontawesome.com/20b101cfed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-content text-center py-3 my-3">Bojda Gallery</h1>
+        </header>
+
+        <div class="page-content my-3">
+            <nav class="navbar navbar-dark dark-blue-color">
+                <div class="container-fluid">
+                    <button class="navbar-toggler border-gray" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle" 
+                    aria-controls="nav-toggle" aria-expanded="false" aria-label="Zobraz menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="nav-toggle">
+                <div class="row dark-blue-color mx-0">
+                    <a class="col-12 col-md-6 py-3 nav-button-active d-flex justify-content-center" href="index.html">Galéria fotografií</a>
+                    <a class="col-12 col-md-6 py-3 d-flex justify-content-center" href="./html/sinecosine.html">Mapa fotografií</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div class="row" id="photo-gallery"></div>
+            <div class="row">
+                <div class="col-12 dark-blue-color bg-clip-content text-white">
+                    <footer class="px-2">&copy; 2022 Viktor Bojda</footer>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-title"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered w-fit-content max-w-none" role="document">
+                <div class="modal-content w-fit-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title w-100" id="gallery-modal-title"></h5>
+                    </div>
+                    <div class="modal-body p-0" id="gallery-modal-body"></div>
+                    <div class="modal-footer" id="gallery-modal-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./js/index.js" defer></script>
+</body>
+</html>

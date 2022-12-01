@@ -1,0 +1,59 @@
+{
+    "photos": 
+    [
+        {
+            "id": 0,
+            "filename": "cat1.jpg",
+            "title": "Cat 1 title",
+            "description": "Cat 1 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        },
+        {
+            "id": 1,
+            "filename": "cat2.webp",
+            "title": "Cat 2 title",
+            "description": "Cat 2 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        },
+        {
+            "id": 2,
+            "filename": "cat3.jpg",
+            "title": "Cat 3 title",
+            "description": "Cat 3 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        },
+        {
+            "id": 3,
+            "filename": "land1.jpg",
+            "title": "Land 1 title",
+            "description": "Land 1 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        },
+        {
+            "id": 4,
+            "filename": "land2.jpg",
+            "title": "Land 2 title",
+            "description": "Land 2 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        },
+        {
+            "id": 5,
+            "filename": "land3.webp",
+            "title": "Land 3 title",
+            "description": "Land 3 description",
+            "createdAt": "",
+            "coords": "",
+            "path": "photos/"
+        }
+    ]
+}
