@@ -6,7 +6,7 @@
             "filename": "cat1.jpg",
             "title": "Cat 1 title",
             "description": "Cat 1 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         },
@@ -15,7 +15,7 @@
             "filename": "cat2.webp",
             "title": "Cat 2 title",
             "description": "Cat 2 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         },
@@ -24,7 +24,7 @@
             "filename": "cat3.jpg",
             "title": "Cat 3 title",
             "description": "Cat 3 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         },
@@ -33,7 +33,7 @@
             "filename": "land1.jpg",
             "title": "Land 1 title",
             "description": "Land 1 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         },
@@ -42,7 +42,7 @@
             "filename": "land2.jpg",
             "title": "Land 2 title",
             "description": "Land 2 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         },
@@ -51,7 +51,7 @@
             "filename": "land3.webp",
             "title": "Land 3 title",
             "description": "Land 3 description",
-            "createdAt": "",
+            "date": "date",
             "coords": "",
             "path": "photos/"
         }

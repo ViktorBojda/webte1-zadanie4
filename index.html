@@ -33,6 +33,12 @@
         </div>
 
         <div class="page-content">
+            <div class="row mx-0">
+                <div class="px-0">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    <input type="text" name="photo-search-input" id="photo-search-input">
+                </div>
+            </div>
             <div class="row" id="photo-gallery"></div>
             <div class="row">
                 <div class="col-12 dark-blue-color bg-clip-content text-white">
@@ -43,16 +49,38 @@
 
         <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-title"
             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title w-100" id="gallery-modal-title"></h5>
+                    </div>
+                    <div class="modal-body p-0" id="gallery-modal-body">
+                        <i class="fa-solid fa-circle-arrow-left fa-3x arrow-left" onclick="moveImagesLeft()"></i>
+                        <i class="fa-solid fa-circle-arrow-right fa-3x arrow-right" onclick="moveImagesRight()"></i>
+                        <i class="fa-solid fa-circle-play fa-3x slideshow-button" onclick="startSlideshow()"></i>
+                    </div>
+                    <div class="modal-footer justify-content-between" id="gallery-modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-title"
+            aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered w-fit-content max-w-none" role="document">
                 <div class="modal-content w-fit-content">
                     <div class="modal-header text-center">
                         <h5 class="modal-title w-100" id="gallery-modal-title"></h5>
                     </div>
-                    <div class="modal-body p-0" id="gallery-modal-body"></div>
+                    <div class="modal-body p-0" id="gallery-modal-body">
+                        <i class="fa-solid fa-circle-arrow-left fa-3x arrow-left" onclick="moveImagesLeft()"></i>
+                        <i class="fa-solid fa-circle-arrow-right fa-3x arrow-right" onclick="moveImagesRight()"></i>
+                        <i class="fa-solid fa-circle-play fa-3x slideshow-button" onclick="startSlideshow()"></i>
+                    </div>
                     <div class="modal-footer" id="gallery-modal-footer"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
     </div>
 
     <script src="./js/jquery-3.6.1.min.js"></script>
