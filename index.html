@@ -7,6 +7,10 @@
     <title>Galéria fotografií</title>
     <script src="https://kit.fontawesome.com/20b101cfed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -27,7 +31,7 @@
             <div class="collapse" id="nav-toggle">
                 <div class="row dark-blue-color mx-0">
                     <a class="col-12 col-md-6 py-3 nav-button-active d-flex justify-content-center" href="index.html">Galéria fotografií</a>
-                    <a class="col-12 col-md-6 py-3 d-flex justify-content-center" href="./html/sinecosine.html">Mapa fotografií</a>
+                    <a class="col-12 col-md-6 py-3 d-flex justify-content-center" href="./html/map.html">Mapa fotografií</a>
                 </div>
             </div>
         </div>
@@ -35,7 +39,7 @@
         <div class="page-content">
             <div class="row mx-0">
                 <div class="px-0">
-                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
                     <input type="text" name="photo-search-input" id="photo-search-input">
                 </div>
             </div>
@@ -58,28 +62,14 @@
                         <i class="fa-solid fa-circle-arrow-left fa-3x arrow-left" onclick="moveImagesLeft()"></i>
                         <i class="fa-solid fa-circle-arrow-right fa-3x arrow-right" onclick="moveImagesRight()"></i>
                         <i class="fa-solid fa-circle-play fa-3x slideshow-button" onclick="startSlideshow()"></i>
+                        <div id="map-mini-wrapper">
+                            <div id="map-mini"></div>
+                        </div>
                     </div>
                     <div class="modal-footer justify-content-between" id="gallery-modal-footer"></div>
                 </div>
             </div>
         </div>
-
-        <!-- <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-title"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered w-fit-content max-w-none" role="document">
-                <div class="modal-content w-fit-content">
-                    <div class="modal-header text-center">
-                        <h5 class="modal-title w-100" id="gallery-modal-title"></h5>
-                    </div>
-                    <div class="modal-body p-0" id="gallery-modal-body">
-                        <i class="fa-solid fa-circle-arrow-left fa-3x arrow-left" onclick="moveImagesLeft()"></i>
-                        <i class="fa-solid fa-circle-arrow-right fa-3x arrow-right" onclick="moveImagesRight()"></i>
-                        <i class="fa-solid fa-circle-play fa-3x slideshow-button" onclick="startSlideshow()"></i>
-                    </div>
-                    <div class="modal-footer" id="gallery-modal-footer"></div>
-                </div>
-            </div>
-        </div> -->
 
     </div>
 

@@ -3,57 +3,103 @@
     [
         {
             "id": 0,
-            "filename": "cat1.jpg",
-            "title": "Cat 1 title",
-            "description": "Cat 1 description",
-            "date": "date",
-            "coords": "",
+            "filename": "martinko.jpg",
+            "title": "Martinko Demeterko",
+            "description": "Moc ho za uši ťahali",
+            "date": "08.12.2022 11:36",
+            "location": "48.15391,17.07352",
             "path": "photos/"
         },
         {
             "id": 1,
-            "filename": "cat2.webp",
-            "title": "Cat 2 title",
-            "description": "Cat 2 description",
-            "date": "date",
-            "coords": "",
+            "filename": "laptop.jpg",
+            "title": "Laptočik",
+            "description": "Najkrajší asus laptopčik",
+            "date": "08.12.2022 11:36",
+            "location": "48.15391,17.07352",
             "path": "photos/"
         },
         {
             "id": 2,
-            "filename": "cat3.jpg",
-            "title": "Cat 3 title",
-            "description": "Cat 3 description",
-            "date": "date",
-            "coords": "",
+            "filename": "feihub.jpg",
+            "title": "FEI Hub",
+            "description": "Však kde inde mám ísť?",
+            "date": "08.12.2022 11:36",
+            "location": "48.15391,17.07352",
             "path": "photos/"
         },
         {
             "id": 3,
-            "filename": "land1.jpg",
-            "title": "Land 1 title",
-            "description": "Land 1 description",
-            "date": "date",
-            "coords": "",
+            "filename": "cica.jpg",
+            "title": "Čierna cica",
+            "description": "Nejaká je urazená",
+            "date": "08.12.2022 15:42",
+            "location": "48.15702,17.06956",
             "path": "photos/"
         },
         {
             "id": 4,
-            "filename": "land2.jpg",
-            "title": "Land 2 title",
-            "description": "Land 2 description",
-            "date": "date",
-            "coords": "",
+            "filename": "cubicon.jpg",
+            "title": "Vysvietený cubicon",
+            "description": "Len písmenko mu jedno nesvieti :(",
+            "date": "08.12.2022 15:44",
+            "location": "48.15779,17.06864",
             "path": "photos/"
         },
         {
             "id": 5,
-            "filename": "land3.webp",
-            "title": "Land 3 title",
-            "description": "Land 3 description",
-            "date": "date",
-            "coords": "",
+            "filename": "mrakodrap.jpg",
+            "title": "Výškový mrakodrap",
+            "description": "Najkrajšia budova v meste",
+            "date": "08.12.2022 15:46",
+            "location": "48.15779,17.06864",
+            "path": "photos/"
+        },
+        {
+            "id": 6,
+            "filename": "ukrajina.jpg",
+            "title": "Zbombardovaný internát",
+            "description": "Kúsok Ukrajiny aj u nás doma",
+            "date": "08.12.2022 15:50",
+            "location": "48.15942,17.06438",
+            "path": "photos/"
+        },
+        {
+            "id": 7,
+            "filename": "kotolna.jpg",
+            "title": "Pietné miesto",
+            "description": "Fakt sa tam len pije...",
+            "date": "08.12.2022 15:54",
+            "location": "48.16049,17.06514",
+            "path": "photos/"
+        },
+        {
+            "id": 8,
+            "filename": "kotolna_vyhlad.jpg",
+            "title": "Výhľad z pietného miesta",
+            "description": "Dychberúce prostredie",
+            "date": "08.12.2022 15:54",
+            "location": "48.16049,17.06514",
+            "path": "photos/"
+        },
+        {
+            "id": 9,
+            "filename": "mladost_stara.jpg",
+            "title": "Stará Mladosť",
+            "description": "To ti je paradox",
+            "date": "08.12.2022 15:58",
+            "location": "48.15851,17.06427",
+            "path": "photos/"
+        },
+        {
+            "id": 10,
+            "filename": "mladost_nova.jpg",
+            "title": "Home sweet home",
+            "description": "Lepšie ako zostať na ulici",
+            "date": "08.12.2022 15:58",
+            "location": "48.15851,17.06427",
             "path": "photos/"
         }
+
     ]
 }
